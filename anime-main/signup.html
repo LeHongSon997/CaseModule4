@@ -211,7 +211,7 @@
             signUpForm.username = $('#username').val();
             signUpForm.email = $('#email').val();
             signUpForm.password = $('#password').val();
-            signUpForm.roles = ["user"];
+            signUpForm.roles = [""];
             let signUpFormOBJ = JSON.stringify(signUpForm);
             console.log('signUpFormOBJ === ',signUpFormOBJ)
             $.ajax({
